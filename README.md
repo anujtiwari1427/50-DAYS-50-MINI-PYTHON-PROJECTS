@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Python CI](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS/actions/workflows/python-ci.yml/badge.svg)](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS/actions/workflows/python-ci.yml)
 [![Completed](https://img.shields.io/badge/Status-50%2F50%20Completed-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
