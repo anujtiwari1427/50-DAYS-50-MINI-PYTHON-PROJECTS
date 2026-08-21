@@ -51,13 +51,13 @@ def check(no_of_days, row_num, b):
 
     for student in range(0, len(row_num)):
         # if total no.of.leaves equals threshold
-        if no_of_days[student] is 2:
-            if b is 1:
+        if no_of_days[student] == 2:
+            if b == 1:
                 
                 # mail_id appending
                 l1.append(sheet.cell(row=row_num[student], column=2).value)
                 mailstu(l1, m1)  # sending mail
-            elif b is 2:
+            elif b == 2:
                 l1.append(sheet.cell(row=row_num[student], column=2).value)
                 mailstu(l1, m2)
             else:
@@ -66,7 +66,7 @@ def check(no_of_days, row_num, b):
 
         # if total.no.of.leaves > threshold
         elif no_of_days[student] > 2:
-            if b is 1:
+            if b == 1:
 
                 # adding roll no
                 l2 = l2+str(sheet.cell(row=row_num[student], column=1).value)
@@ -75,7 +75,7 @@ def check(no_of_days, row_num, b):
                 l3.append(sheet.cell(row=row_num[student], column=2).value)
                 subject = "CI"  # subject based on the code number
 
-            elif b is 2:
+            elif b == 2:
                 l2 = l2+str(sheet.cell(row=row_num[student], column=1).value)
                 l3.append(sheet.cell(row=row_num[student], column=2).value)
                 subject = "Python"
@@ -134,7 +134,7 @@ def mailstaff(mail_id, msg):
     print('Mail Sent to staff')
 
 
-while resp is 1:
+while resp == 1:
     print("1--->CI\n2--->python\n3--->DM")
 
     # enter the correspondingnumber
@@ -159,8 +159,8 @@ while resp is 1:
 
         for i in range(2, r+1):
 
-            if y is 1:
-                if sheet.cell(row=i, column=1).value is student:
+            if y == 1:
+                if sheet.cell(row=i, column=1).value == student:
                     m = sheet.cell(row=i, column=3).value
                     m = m+1
                     sheet.cell(row=i, column=3).value = m
@@ -168,16 +168,16 @@ while resp is 1:
                     no_of_days.append(m)
                     row_num.append(i)
 
-            elif y is 2:
-                if sheet.cell(row=i, column=1).value is student:
+            elif y == 2:
+                if sheet.cell(row=i, column=1).value == student:
                     m = sheet.cell(row=i, column=4).value
                     m = m+1
                     sheet.cell(row=i, column=4).value = m+1
                     no_of_days.append(m)
                     row_num.append(i)
 
-            elif y is 3:
-                if sheet.cell(row=i, column=1).value is student:
+            elif y == 3:
+                if sheet.cell(row=i, column=1).value == student:
                     m = sheet.cell(row=i, column=5).value
                     m = m+1
                     sheet.cell(row=i, column=5).value = m+1
