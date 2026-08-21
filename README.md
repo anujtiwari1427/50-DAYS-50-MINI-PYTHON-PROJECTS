@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![Completed](https://img.shields.io/badge/Status-50%2F50%20Completed-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON)
+[![Completed](https://img.shields.io/badge/Status-50%2F50%20Completed-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON?style=for-the-badge&logo=apachespark&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON?style=for-the-badge&logo=git&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS?style=for-the-badge&logo=apachespark&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS?style=for-the-badge&logo=git&logoColor=white)](https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS/network/members)
 
 <p align="center">
   <b>A comprehensive 50-day Python journey covering Automation, GUI Apps, Web Scraping, Data Science, Machine Learning, Arcade Games, and Real-World Utilities.</b>
@@ -214,8 +214,8 @@ python --version
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/anujtiwari1427/50-DAYS-50-PROJECTS-PYTHON.git
-cd 50-DAYS-50-PROJECTS-PYTHON
+git clone https://github.com/anujtiwari1427/50-DAYS-50-MINI-PYTHON-PROJECTS.git
+cd 50-DAYS-50-MINI-PYTHON-PROJECTS
 ```
 
 ### 3. Create a Virtual Environment
