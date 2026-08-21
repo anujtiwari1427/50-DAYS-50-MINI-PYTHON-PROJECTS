@@ -31,7 +31,6 @@ class Ball:
         
         # Check if ball reached bottom
         if ball_y_position >= 510:
-            global paddle_x_position, paddle
             # Check collision with paddle
             if (paddle_x_position - collision_offset <= self.x1 and
                 paddle_x_position + 40 + collision_offset >= self.x2):

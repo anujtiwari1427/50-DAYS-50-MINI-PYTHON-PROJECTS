@@ -89,10 +89,6 @@ def game_initiating_window():
 
 def draw_status():
 
-    # getting the global variable draw
-    # into action
-    global draw
-
     if winner is None:
         message = XO.upper() + "'s Turn"
     else:
@@ -116,7 +112,7 @@ def draw_status():
 
 
 def check_win():
-    global board, winner, draw
+    global winner, draw
 
     # checking for winning rows
     for row in range(0, 3):
@@ -155,7 +151,7 @@ def check_win():
 
 
 def drawXO(row, col):
-    global board, XO
+    global XO
 
     # for the first row, the image
     # should be pasted at a x coordinate
@@ -237,7 +233,6 @@ def user_click():
     # we need to draw the images at
     # the desired positions
     if(row and col and board[row-1][col-1] is None):
-        global XO
         drawXO(row, col)
         check_win()
 
